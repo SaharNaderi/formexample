@@ -1,0 +1,25 @@
+
+
+
+<form action="https://github.com/search?q" method="get" target="_blank">
+  <br>
+  <select name="s" id="s">
+    <br>
+    <option value="update">Update</option>
+    <option value="forks">Forks</option>
+    <option value="stars">Stars</option>
+  </select>
+  <br>
+  <br>
+   <input type="radio" id="asc" name="o" value="asc" />
+   <label for="asc">Asending</label><br />
+   <input type="radio" id="desc" name="o" value="desc" />
+   <label for="desc">Desendinng</label><br />
+  <br>
+  <br>
+   <label for="q">Git hub</label><br/>
+   <input type="text" id="q" name="q" />
+  <br>
+  <br>
+   <input type="submit" value="Submit" />
+</form>
